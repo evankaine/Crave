@@ -71,12 +71,12 @@ Airtable is returning the data for this base as follows:
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup         | Complete |
-| Oct 12   | Component Creation / Get, Set, Delete Data | Complete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            | Complete |
-| Oct 14   | CSS Components cont'd / MVP                | Complete |
-| Oct 15   | Advanced CSS                               | Complete |
-| Oct 16   | Presentations                              | Complete |
+| Jul 13   | Proposal Approval / Airtable Setup         | Complete |
+| Jul 14   | Component Creation / Get, Set, Delete Data | Not Complete |
+| Jul 15   | cont'd / CSS Components                    | Not Complete |
+| Jul 16   | CSS Components cont'd / MVP                | Not Complete |
+| Jul 18   | Advanced CSS                               | Not Complete |
+| Jul 20   | Presentations                              | Not Complete |
 
 ## Timeframes
 
