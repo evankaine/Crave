@@ -9,13 +9,13 @@ Crave is an Airtable and React build social media platform where the user is abl
 
 The wireframes below shows the homepage and review feed for Crave in web, tablet and phone format. The homepage contains a left side navigation bar displaying the app logo and clickable icons that route to each respective feed. The feeds contain an input form and submit button for posting data. Below the form is a feed of all past forms, along with a delete button for each post.
 
-![imageAlt](https://i.imgur.com/3PaFnxN.png)
-![imageAlt](https://i.imgur.com/pa10wAu.png)
-![imageAlt](https://i.imgur.com/yLCG66Z.png)
+![imageAlt](https://i.imgur.com/3WMXAke.png)
+![imageAlt](https://i.imgur.com/YtofjXA.png)
+![imageAlt](https://i.imgur.com/g9CuDZ7.png)
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/vmjR5iL.png)
+![imageAlt](https://i.imgur.com/iHlW8MN.png)
 
 ## API and Data Sample
 
@@ -72,6 +72,7 @@ Airtable is returning the data for this base as follows:
 - Home page with clickable icons that route to each feed.
 - Create area on homepage for voting on favorite genre. 
 - Get and post from Airtable.
+- CSS Grid
 
 #### PostMVP
 
