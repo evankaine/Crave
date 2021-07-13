@@ -3,7 +3,7 @@
 
 ## Project Description
 
-Crave is an Airtable and React build social media platform where the user is able to make posts and comments to them on various pages. From the homepage, the user is able to navigate by clickable icons that lead to corresponding pages for conversations about music genres such as house and dubstep. Each respective page will lead to a feed of past posts and a form to create a new post.
+Crave is an Airtable and React build social media platform where the user is able to make posts and comments to the various pages. From the homepage, the user is able to navigate by clickable icons that lead to corresponding pages for conversations about music genres such as house and dubstep. Each respective page will lead to a feed of past posts and a form to create a new post.
 
 ## Wireframes
 
