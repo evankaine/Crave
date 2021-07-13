@@ -19,37 +19,50 @@ The wireframes below shows the homepage and review feed for Crave in web, tablet
 
 ## API and Data Sample
 
-https://airtable.com/shrTv92TftYf4SVZZ
 
 Airtable is returning the data for this base as follows:
 
 ```
-[
-    {
-        "id": "attJLuc3CPmQ1vU7E",
-        "url": "https://dl.airtable.com/.attachments/dc1f744bd2a48773f62bab6595c1f781/33b583b9/lettuce.jpeg",
-        "filename": "lettuce.jpeg",
-        "size": 64552,
-        "type": "image/jpeg",
-        "thumbnails": {
-            "small": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/8b175057df94df2e65b9dc484fb2aa3b/a297fad8",
-                "width": 49,
-                "height": 36
+{
+    "records": [
+        {
+            "id": "recDr8PS5KnCxgPiK",
+            "fields": {
+                "craving": "test post\n",
+                "name": "person 1",
+                "assets": [
+                    {
+                        "id": "attJLuc3CPmQ1vU7E",
+                        "url": "https://dl.airtable.com/.attachments/dc1f744bd2a48773f62bab6595c1f781/33b583b9/lettuce.jpeg",
+                        "filename": "lettuce.jpeg",
+                        "size": 64552,
+                        "type": "image/jpeg",
+                        "thumbnails": {
+                            "small": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/8b175057df94df2e65b9dc484fb2aa3b/a297fad8",
+                                "width": 49,
+                                "height": 36
+                            },
+                            "large": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/99af6bc1f94dd4585526538bb35d0286/091014ca",
+                                "width": 692,
+                                "height": 512
+                            },
+                            "full": {
+                                "url": "https://dl.airtable.com/.attachmentThumbnails/90d24081cf06bfaba33dd0c13169e38f/c90bbb9f",
+                                "width": 3000,
+                                "height": 3000
+                            }
+                        }
+                    }
+                ]
             },
-            "large": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/99af6bc1f94dd4585526538bb35d0286/091014ca",
-                "width": 692,
-                "height": 512
-            },
-            "full": {
-                "url": "https://dl.airtable.com/.attachmentThumbnails/90d24081cf06bfaba33dd0c13169e38f/c90bbb9f",
-                "width": 3000,
-                "height": 3000
-            }
+            "createdTime": "2021-07-13T14:49:46.000Z"
         }
-    }
-]
+    ],
+    "offset": "recDr8PS5KnCxgPiK"
+}
+
 ```
 
 ### MVP/PostMVP
@@ -58,7 +71,6 @@ Airtable is returning the data for this base as follows:
 
 - Home page with clickable icons that route to each feed.
 - Create area on homepage for voting on favorite genre. 
-
 - Get and post from Airtable.
 
 #### PostMVP
@@ -82,25 +94,23 @@ Airtable is returning the data for this base as follows:
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
-| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
-| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Proposal                  |    H     |      2hrs      |     -----     |    ------   |
+| Airtable setup            |    H     |     .5hrs      |     -----     |    ------   |
+| Clickable icons           |    H     |      1hrs      |     -----     |    ------   |
+| Data population Home      |    H     |      3hrs      |     -----     |    ------   |
+| Data population Genre 1   |    H     |      3hrs      |     -----     |    ------   |
+| Data population Genre 2   |    H     |      3hrs      |     -----     |    ------   |
+| Form creation Home        |    H     |      2hrs      |     -----     |    ------   |
+| Form creation Genre 1     |    H     |      2hrs      |     -----     |    ------   |
+| Form creation Genre 2     |    H     |      2hrs      |     -----     |    ------   |
+| Data creation/update Home |    H     |      3hrs      |     -----     |    ------   |
+| Data/update Genre 1       |    H     |      3hrs      |     -----     |    ------   |
+| Data/update Genre 2       |    H     |      3hrs      |     -----     |    ------   |
+| Create Voter Component    |    H     |      3hrs      |     -----     |    ------   |
+| Component CSS Home        |    H     |      3hrs      |     -----     |    ------   |
+| Component CSS Genre 1     |    H     |      3hrs      |     -----     |    ------   |
+| Component CSS Genre 2     |    H     |      3hrs      |     -----     |    ------   |
+| Total                     |    H     |    38.5hrs     |     -----     |    ------   |
 
 ## SWOT Analysis
 
