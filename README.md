@@ -73,6 +73,7 @@ Airtable is returning the data for this base as follows:
 - Create area on homepage for voting on favorite genre. 
 - Get and post from Airtable.
 - CSS Grid
+- media query
 
 #### PostMVP
 
