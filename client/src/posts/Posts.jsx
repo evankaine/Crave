@@ -7,16 +7,14 @@ const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 
-export default function NewRecipe() {
+export default function NewPost(props) {
   const [name, setName] = useState("");
   const [status, setStatus] = useState("");
   const [genre, setGenre] = useState("");
-  const [image, setImage] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
-      image,
       name,
       status,
       genre,
@@ -29,16 +27,11 @@ export default function NewRecipe() {
       }
     );
     console.log(res);
+    props.setToggle((current) => !current)
   };
   return (
     <div className="postContainer">
       <form onSubmit={handleSubmit}>
-        {/* <label>image</label> */}
-        {/* <input
-          type="text"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
-        /> */}
         <br />
         <label>Name</label>
         <input
