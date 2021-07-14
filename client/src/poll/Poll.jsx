@@ -18,7 +18,7 @@ function Counter() {
 
   return (
     <div>
-      <h3>Vote For Your <br /> Favorite Genre</h3>
+      <h4>Vote For Your <br /> Favorite Genre</h4>
       <h4>{countDubstep}</h4>
       <button disabled={disable}
       onClick={() => voteDubstep()}>

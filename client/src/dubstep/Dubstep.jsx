@@ -10,21 +10,26 @@ const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 
 export default function Dubstep() {
   const [dubstepData, setDubstepData] = useState([]);
+  const [toggle, setToggle] = useState(false)
+
   useEffect(() => {
     fetchData();
-  }, []);
+  }, [toggle]);
   const fetchData = async () => {
     const res = await axios.get(URL, {
       headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
     });
-    console.log(res.data.records);
-    setDubstepData(res.data.records);
+    console.log(res.data.records)
+    setDubstepData(res.data.records.filter((post) =>
+    post.fields.genre === 'Dubstep'));
+    
+    
   };
 
   return (
     <div>
       <Post />
-      <Timeline />
+      <Timeline post = {dubstepData} />
     </div>
   )
 }

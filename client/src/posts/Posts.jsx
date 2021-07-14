@@ -33,12 +33,12 @@ export default function NewRecipe() {
   return (
     <div className="postContainer">
       <form onSubmit={handleSubmit}>
-        <label>image</label>
-        <input
+        {/* <label>image</label> */}
+        {/* <input
           type="text"
           value={image}
           onChange={(e) => setImage(e.target.value)}
-        />
+        /> */}
         <br />
         <label>Name</label>
         <input
