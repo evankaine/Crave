@@ -5,7 +5,7 @@ import "../posts/posts.css"
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
-const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/homepage`;
+const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 
 export default function NewRecipe() {
   const [name, setName] = useState("");
