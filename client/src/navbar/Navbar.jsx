@@ -1,7 +1,9 @@
 import "./navbar.css"
 import AlbumIcon from '@material-ui/icons/Album';
 import HomeIcon from '@material-ui/icons/Home';
+import EventIcon from '@material-ui/icons/Event';
 import Logo from "../logo/Logo"
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -9,12 +11,23 @@ export default function Navbar() {
       <Logo />
       <div className="navIconContainer">
         <div className="navbarIcons">
-          <HomeIcon />
-          <span className="navHome">Home</span>
-          <AlbumIcon />
-          <span className="navHouse">House</span>
-          <AlbumIcon />
-          <span className="navDubstep">Dubstep</span>
+          
+          <Link to="/"
+          className="navHome">
+          <HomeIcon />Home</Link>
+          
+          <Link to="/House"
+          className="navHouse">
+          <AlbumIcon />House</Link>
+
+          
+          <Link to="/Dubstep"
+          className="navDubstep">
+          <AlbumIcon />Dubstep</Link>
+          
+            <Link to="/Events"
+          className="navEvents">
+          <EventIcon />Events</Link>
         </div>
           
       </div>
