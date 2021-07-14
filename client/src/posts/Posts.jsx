@@ -1,16 +1,18 @@
 import { useState } from "react";
 import axios from "axios";
+import "../posts/posts.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
-const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/Table%201`;
+const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/homepage`;
 
 export default function NewRecipe() {
   const [name, setName] = useState("");
   const [status, setStatus] = useState("");
   const [genre, setGenre] = useState("");
   const [image, setImage] = useState("");
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fields = {
@@ -29,7 +31,7 @@ export default function NewRecipe() {
     console.log(res);
   };
   return (
-    <div>
+    <div className="postContainer">
       <form onSubmit={handleSubmit}>
         <label>image</label>
         <input
@@ -38,21 +40,21 @@ export default function NewRecipe() {
           onChange={(e) => setImage(e.target.value)}
         />
         <br />
-        <label>name</label>
+        <label>Name</label>
         <input
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <br />
-        <label>genre</label>
+        <label>Genre</label>
         <input
           type="text"
           value={genre}
           onChange={(e) => setGenre(e.target.value)}
         />
         <br />
-        <label>status</label>
+        <label>Status</label>
         <input
           type="text"
           value={status}

@@ -15,16 +15,15 @@ export default function Navbar() {
           <Link to="/"
           className="navHome">
           <HomeIcon />Home</Link>
-          
+          <br />
           <Link to="/House"
           className="navHouse">
           <AlbumIcon />House</Link>
-
-          
+          <br />
           <Link to="/Dubstep"
           className="navDubstep">
           <AlbumIcon />Dubstep</Link>
-          
+          <br />
             <Link to="/Events"
           className="navEvents">
           <EventIcon />Events</Link>
