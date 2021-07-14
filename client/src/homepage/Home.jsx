@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
-import Navigation from "../navbar/Navbar"
-
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/Table%201`;
-console.log(URL)
+
 export default function Home() {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -22,8 +21,7 @@ export default function Home() {
   };
   return (
     <div>
-      <Navigation />
-      this is home page
+      
     </div>
   )
 }

@@ -1,15 +1,12 @@
 import "./navbar.css"
 import AlbumIcon from '@material-ui/icons/Album';
 import HomeIcon from '@material-ui/icons/Home';
+import Logo from "../logo/Logo"
 
 export default function Navbar() {
   return (
     <div className="navContainer">
-
-      <div className="navTop">
-        <span className="siteLogo">LOGO</span>
-      </div>
-
+      <Logo />
       <div className="navIconContainer">
         <div className="navbarIcons">
           <HomeIcon />
