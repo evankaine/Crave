@@ -27,10 +27,10 @@ export default function Timeline({post}) {
       {post.map((post) => {
         return (
           <div key={post.id}>
-          <Link to={`/post/${post.id}`} >
-            <img src={post.fields.image} alt={post.id} />
-            <h3>{post.fields.name}</h3>
-          </Link>
+          
+            {/* <img src={post.fields.image} alt={post.id} /> */}
+            <h4>{post.fields.name}</h4>
+          
           <Link to={`/${post.fields.genre}`}>
             <p>{post.fields.genre}</p>
           </Link>  
