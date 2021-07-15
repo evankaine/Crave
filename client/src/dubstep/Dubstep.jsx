@@ -28,7 +28,7 @@ export default function Dubstep() {
 
   return (
     <div>
-      <Post />
+      <Post setToggle={setToggle}/>
       <Timeline post = {dubstepData} />
     </div>
   )

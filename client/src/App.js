@@ -4,6 +4,7 @@ import Dubstep from "./dubstep/Dubstep"
 import House from "./house/House"
 import Events from "./events/Events"
 import Poll from "../src/poll/Poll"
+import Card from "../src/card/Card"
 import { Route } from "react-router-dom";
 
 function App() {
@@ -26,7 +27,6 @@ function App() {
     <Route path="/Events">
       <Events />
     </Route>
-    
     <Poll />
   </div>
   );

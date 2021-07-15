@@ -19,7 +19,6 @@ export default function House() {
     const res = await axios.get(URL, {
       headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
     });
-    console.log(res.data.records)
     setHouseData(res.data.records.filter((post) =>
     post.fields.genre === 'House'));
     

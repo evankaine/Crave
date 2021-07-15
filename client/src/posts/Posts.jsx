@@ -46,6 +46,7 @@ export default function NewPost(props) {
           value={genre}
           onChange={(e) => setGenre(e.target.value)}
         />
+        
         <br />
         <label>Status</label>
         <input
