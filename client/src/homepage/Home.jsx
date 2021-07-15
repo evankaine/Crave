@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Timeline from '../timeline/Timeline'
 import axios from "axios";
+import "./home.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;

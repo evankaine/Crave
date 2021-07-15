@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import axios from "axios";
+import "./poll.css"
 
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
@@ -60,7 +61,7 @@ function Counter(props) {
 }
 
   return (
-    <div>
+    <div className="pollContainer">
       <h4>Vote For Your <br /> Favorite Genre</h4>
         <h4>{countDubstep.votes}</h4>
       <button disabled={disable}

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-import "../posts/posts.css"
+import "./posts.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
@@ -55,7 +55,7 @@ export default function NewPost(props) {
           onChange={(e) => setStatus(e.target.value)}
         />
         <br />
-        <button>Share</button>
+        <button className="shareButton">Share</button>
       </form>
     </div>
   )
