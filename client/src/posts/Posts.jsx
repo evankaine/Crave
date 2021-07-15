@@ -31,31 +31,36 @@ export default function NewPost(props) {
   };
   return (
     <div className="postContainer">
+      
       <form onSubmit={handleSubmit}>
         <br />
-        <label>Name</label>
-        <input
+      
+        <input className="postName"
+          placeholder="Name"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
         <br />
-        <label>Genre</label>
-        <input
+        
+        <input  className="postGenre"
+          placeholder="Genre"
           type="text"
           value={genre}
           onChange={(e) => setGenre(e.target.value)}
         />
-        
         <br />
-        <label>Status</label>
-        <input
+        
+        <input  className="postStatus"
+          placeholder=""
           type="text"
           value={status}
           onChange={(e) => setStatus(e.target.value)}
         />
         <br />
+
         <button className="shareButton">Share</button>
+
       </form>
     </div>
   )

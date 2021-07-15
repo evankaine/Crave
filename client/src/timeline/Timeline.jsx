@@ -8,7 +8,7 @@ export default function Timeline({ post }) {
     <div className="timelineContainer">
       {post.map((post) => {
         return (
-          <div key={post.id}>
+          <div className="cardContainer" key={post.id}>
 
             {/* <img src={post.fields.image} alt={post.id} /> */}
             <h4 className="timelineName">{post.fields.name}</h4>
@@ -17,7 +17,6 @@ export default function Timeline({ post }) {
             <p className="timelineGenre">{post.fields.genre}</p>
           </Link>  
               <p className="timelineStatus">{post.fields.status}</p>
-            
           </div>
         );
       })}

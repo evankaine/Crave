@@ -1,4 +1,4 @@
-
+import "./logo.css"
 
 
 export default function Navbar() {
