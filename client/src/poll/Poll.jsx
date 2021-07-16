@@ -62,7 +62,8 @@ function Counter(props) {
 
   return (
     <div className="pollContainer">
-      <h4>Vote For Your <br /> Favorite Genre</h4>
+      <h4 className="voteText">Vote For Your <br /> Favorite Genre</h4>
+      <div className="pollCount">
         <h4>{countDubstep.votes}</h4>
       <button disabled={disable}
         onClick={handleUpdate}>
@@ -73,7 +74,7 @@ function Counter(props) {
         onClick={handleUpdate}>
         House
       </button>
-    
+      </div>
     </div>
   
   );

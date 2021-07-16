@@ -1,11 +1,54 @@
+
+
+
 .concertContainer {
   grid-area: 1 / 3 / 2 / 4;
   text-align: center;
   margin: 0px 0px 0px 0px;
   height: calc(100vh - 0px);
   width: 100%;
-  background: linear-gradient(0.25turn,#A8A7A7, #C8C8A9  );
+  background: linear-gradient(to right,#363636, #c2c8c5 );
 }
-h3 {
-  margin: 75px 0px 0px 0px;
+.concertMessage {
+  margin: 200px 0px 0px 0px;
+}
+.soonSpan {
+
+  color: #363636; 
+  font-size: 50px;
+  text-shadow: -1px 1px #bbdcbe,
+  -2px 2px #bbdcbe,
+  -3px 3px #bbdcbe, 
+  -4px 4px #bbdcbe, 
+  -5px 5px #bbdcbe, 
+  -6px 6px #bbdcbe;
+  
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+.comingSpan {
+  color: #363636; 
+  font-size: 50px;
+  text-shadow: 1px 1px #bbdcbe,
+  2px 2px #bbdcbe,
+  3px 3px #bbdcbe, 
+  4px 4px #bbdcbe, 
+  5px 5px #bbdcbe, 
+  6px 6px #bbdcbe ;
+  
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+.edmTrainLogo {
+  margin: 15px 0px 15px 0px;
+  max-height: 15vh;
+  align-items: center;
+}
+
+.edmTrainText {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #bbdcbe;
 }

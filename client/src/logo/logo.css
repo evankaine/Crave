@@ -2,6 +2,17 @@
   grid-area: 1 / 1 / 2 / 2;
   
 }
-h2 {
-  margin: 0;
+
+.cSpan {
+  margin: 0px 0px 0px 20px;
+  font-family: 'Staatliches', cursive;
+  font-size: 65px;
+  color: #bbdcbe;
+
+}
+.siteLogo {
+  font-family: 'Staatliches', cursive;
+  color: #363636;
+  font-size: 35px;
+  
 }

@@ -4,32 +4,117 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background: linear-gradient(.25turn,#C8C8A9 , #A8A7A7  );
+  background: linear-gradient(to right,#c2c8c5,#363636);
 }
 .navbarIconContainer {
   padding: 20px;
   display: grid;
   align-items: center;
-  
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
+
 .navHome {
   margin-bottom: 20px;
+  
 }
+.navHome:link {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navHome:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navHome:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #cff4d2;
+}
+.navHome:active {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+
 .navHouse {
   margin-bottom: 20px;
 }
+.navHouse:link {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navHouse:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navHouse:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #cff4d2;
+}
+.navHouse:active {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+
 .navDubstep {
   margin-bottom: 20px;
 }
+.navDubstep:link {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navDubstep:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navDubstep:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #cff4d2;
+}
+.navDubstep:active {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+
 .navEvents {
   margin-bottom: 20px;
 }
+.navEvents:link {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navEvents:visited {
+  text-decoration: none;
+  list-style: none;
+  color: #363636;
+}
+.navEvents:hover {
+  text-decoration: none;
+  list-style: none;
+  color: #cff4d2;
+}
+.navEvents:active {
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+
 
 .navbarHr {
   margin: 20px;
 }
-
-li.Link {
-  color: pink;
-}
-/* background-color: #1a54; */

@@ -1,31 +1,33 @@
 
 .postContainer {
   grid-area: 1 / 2 / 2 / 3;
-  margin: 0px 5px 0px 5px;
-  position:relative;
+  margin: 0px 0px 0px 0px;
+  /* position:relative; */
   height: calc(20vh - 0px);
+  font-family: 'Staatliches', cursive;
 }
 
-form.postForm {
-  align-items: center;
-  margin: 15px 5px 5px 15px;
+.postForm {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 0px 0px;
   border-radius: 2px;
-  -webkit-box-shadow: 0px 0px 15px 0px #363636;
-  box-shadow: 0px 0px 5px 0px #363636;
-  height: 150px;
-  width: calc(60vh - 0px);
-  background-color: white ;
+  height: 20vh;
+  max-width: calc(60vh - 0px);
+  background-color: #bbdcbe ;
 }
 
 
 .postName {
   float: left;
-  margin: 0px 0px 0px 10px;
+  margin: 5px 0px 0px 10px;
+  height: 5vh;
 }
 
 .postGenre {
   float: left;
-  margin: 0px 0px 5px 10px;
+  margin: 5px 0px 5px 10px;
+  height: 5vh;
 }
 
 .postStatus {
@@ -35,6 +37,7 @@ form.postForm {
   padding: 0px 0px 0px 10px;
   height: 45px;
   width: 50vh;
+  flex-direction: column;
 }
 
 input {
