@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import "./events.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
@@ -20,8 +21,8 @@ export default function Events() {
   };
 
   return (
-    <div>
-    this is Events
+    <div className="eventsContainer">
+    Events
     </div>
   )
 }

@@ -3,6 +3,7 @@ import axios from "axios";
 import Post from "../posts/Posts"
 import Timeline from '../timeline/Timeline'
 
+
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
@@ -28,8 +29,10 @@ export default function House() {
   return (
     <div>
       <Post setToggle={setToggle} />
-      <Timeline post = {houseData} />
+      <Timeline post={houseData} />
+      
     </div>
+  
   )
 }
 
