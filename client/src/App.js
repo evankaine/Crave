@@ -3,7 +3,7 @@ import Navigation from "./navbar/Navbar";
 import Dubstep from "./dubstep/Dubstep";
 import House from "./house/House";
 import Events from "./events/Events";
-import Poll from "../src/poll/Poll";
+// import Poll from "./poll/Poll"
 import Concerts from "../src/concerts/Concerts"
 import { Route } from "react-router-dom";
 import "./app.css";
@@ -29,7 +29,7 @@ function App() {
       <Events />
     </Route>
     <Concerts />
-    <Poll />
+    {/* <Poll /> */}
   </div>
   );
 }

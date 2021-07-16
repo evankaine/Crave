@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Post from "../posts/Posts"
 import Timeline from '../timeline/Timeline'
+import "./dubstep.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
@@ -27,7 +28,7 @@ export default function Dubstep() {
   };
 
   return (
-    <div>
+    <div className="dubstepContainer">
       <Post setToggle={setToggle}/>
       <Timeline post = {dubstepData} />
     </div>

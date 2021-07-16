@@ -57,11 +57,12 @@ export default function NewPost(props) {
           value={status}
           onChange={(e) => setStatus(e.target.value)}
         />
+        
         <br />
-
         <button className="shareButton">Share</button>
 
       </form>
+      
     </div>
   )
 };

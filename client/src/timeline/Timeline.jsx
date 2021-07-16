@@ -16,7 +16,8 @@ export default function Timeline({ post }) {
           <Link to={`/${post.fields.genre}`}>
             <p className="timelineGenre">{post.fields.genre}</p>
           </Link>  
-              <p className="timelineStatus">{post.fields.status}</p>
+            <p className="timelineStatus">{post.fields.status}</p>
+
           </div>
         );
       })}
