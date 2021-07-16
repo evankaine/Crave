@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Post from "../posts/Posts"
 import Timeline from '../timeline/Timeline'
-import "./dubstep.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
@@ -23,14 +22,12 @@ export default function Dubstep() {
     console.log(res.data.records)
     setDubstepData(res.data.records.filter((post) =>
     post.fields.genre === 'Dubstep'));
-    
-    
   };
 
   return (
     <div className="dubstepContainer">
       <Post setToggle={setToggle}/>
-      <Timeline post = {dubstepData} />
+      <Timeline isNotHome post = {dubstepData} />
     </div>
   )
 }

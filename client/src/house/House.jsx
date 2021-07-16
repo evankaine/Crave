@@ -29,7 +29,7 @@ export default function House() {
   return (
     <div>
       <Post setToggle={setToggle} />
-      <Timeline post={houseData} />
+      <Timeline isNotHome post={houseData} />
       
     </div>
   

@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import "./timeline.css"
 
 
-export default function Timeline({ post }) {
-  
+export default function Timeline({ post, isNotHome }) {
+  const style = {height: "calc(76.5vh - 0px)"}
   return (
-    <div className="timelineContainer">
+    <div className="timelineContainer" style={isNotHome && style}>
       {post.map((post) => {
         return (
           <div className="cardContainer" key={post.id}>

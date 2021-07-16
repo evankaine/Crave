@@ -32,7 +32,7 @@ export default function NewPost(props) {
   return (
     <div className="postContainer">
       
-      <form onSubmit={handleSubmit}>
+      <form className="postForm" onSubmit={handleSubmit}>
         <br />
       
         <input className="postName"
