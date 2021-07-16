@@ -22,7 +22,7 @@ export default function Home() {
     setHomeData(res.data.records);
   };
   return (
-    <div>
+    <div className="homeContainer">
       <Timeline post={homeData} />
       
     </div>

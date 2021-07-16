@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="logoContainer">
       <div className="siteLogo">
-        CRAVE
+        <h2>CRAVE</h2>
       </div>
     </div>
   )
