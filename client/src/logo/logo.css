@@ -4,15 +4,27 @@
 }
 
 .cSpan {
-  margin: 0px 0px 0px 20px;
+  padding: 5px 0px 0px 15px;
   font-family: 'Staatliches', cursive;
   font-size: 65px;
   color: #bbdcbe;
 
 }
 .siteLogo {
+  padding: 5px 15px 0px 0px;
   font-family: 'Staatliches', cursive;
   color: #363636;
   font-size: 35px;
   
+}
+
+@media (max-width: 600px) {
+  .cSpan {
+    padding: 5px 0px 0px 10px;
+    font-size: 40px;
+  }
+  .siteLogo {
+    padding: 5px 15px 0px 0px;
+    font-size: 20px;
+  }
 }

@@ -52,3 +52,9 @@
   letter-spacing: 1px;
   color: #bbdcbe;
 }
+
+@media (max-width: 600px) {
+  .concertContainer {
+    display: none;
+  }
+}

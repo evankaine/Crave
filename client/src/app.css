@@ -6,3 +6,10 @@
   grid-row-gap: 0px;
   background:#363636;
   }
+
+@media (max-width: 600px) {
+  .App {
+    grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  }
+}

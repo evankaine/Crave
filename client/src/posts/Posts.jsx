@@ -30,11 +30,11 @@ export default function NewPost(props) {
     props.setToggle((current) => !current)
   };
   return (
-    <div className="postContainer">
+    <div className="postComponent">
       
       <form className="postForm" onSubmit={handleSubmit}>
         <br />
-      
+      <div className="postContainer">
         <input className="postName"
           placeholder="Name"
           type="text"
@@ -49,20 +49,20 @@ export default function NewPost(props) {
           value={genre}
           onChange={(e) => setGenre(e.target.value)}
         />
-        <br />
-        
+          <br />
+      </div>
+      <div className="statusContainer">
         <input  className="postStatus"
           placeholder=""
           type="text"
           value={status}
           onChange={(e) => setStatus(e.target.value)}
-        />
-        
-        <br />
+          />
+        </div>
+      <div className="buttonContainer">
         <button className="shareButton">Share</button>
-
+      </div>
       </form>
-      
     </div>
   )
 };

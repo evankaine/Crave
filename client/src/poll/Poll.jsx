@@ -63,17 +63,36 @@ function Counter(props) {
   return (
     <div className="pollContainer">
       <h4 className="voteText">Vote For Your <br /> Favorite Genre</h4>
+
       <div className="pollCount">
-        <h4>{countDubstep.votes}</h4>
-      <button disabled={disable}
-        onClick={handleUpdate}>
-        Dubstep
-      </button>
-        <h4>{countHouse.votes}</h4>
-      <button disabled={disable}
-        onClick={handleUpdate}>
-        House
-      </button>
+
+        <div className="dubstepCount">
+          <h4>{countDubstep.votes}</h4>
+
+        </div>
+        <div className="dubstepButton">
+          <button
+            disabled={disable}
+            onClick={(event) =>
+            {handleUpdate(event);
+            setDisable(true);}}>
+            Dubstep
+          </button>
+        </div>
+
+        <div className="houseCount">
+          <h4>{countHouse.votes}</h4>
+        </div>
+
+        <div className="houseButton">
+          <button
+            disabled={disable}
+            onClick={(event) =>
+            {setDisable(true);
+            handleUpdate(event);}}>
+            House
+          </button>
+        </div>
       </div>
     </div>
   

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import "./events.css"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY;
@@ -20,9 +21,16 @@ export default function Events() {
     setEventData(res.data.records);
   };
 
+
   return (
     <div className="eventsContainer">
-    Events
+
+        <img className="edmTrainLogoEvents"
+        src={`https://edmtrain.s3.amazonaws.com/img/logo/logo-web.svg`}
+        alt="EDMTRAIN LOGO"
+        />
+
+      <h4 className="infoText">EdmTrain</h4>
     </div>
   )
 }

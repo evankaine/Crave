@@ -16,3 +16,30 @@
   font-size: 40px;
   color: #bbdcbe;
 } 
+
+.dubstepCount {
+  display: flex;
+  flex-direction: row;
+
+}
+.dubstepButton {
+  display: flex;
+  flex-direction: row;
+}
+.houseCount {
+  display: flex;
+  flex-direction: row;
+
+}
+.houseButton {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 600px) {
+  .voteText {
+    font-size: 20px;
+  }
+  .pollCount {
+    font-size: 20px;
+  }
+}

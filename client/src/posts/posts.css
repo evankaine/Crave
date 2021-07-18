@@ -1,58 +1,120 @@
 
-.postContainer {
+.postComponent {
   grid-area: 1 / 2 / 2 / 3;
   margin: 0px 0px 0px 0px;
-  /* position:relative; */
   height: calc(20vh - 0px);
   font-family: 'Staatliches', cursive;
 }
 
 .postForm {
+  margin: 15px 0px 0px 0px;
+  height: 20vh;
+  width: 60vh;
+  background-color: #bbdcbe ;
+}
+.postContainer {
   display: flex;
   flex-direction: row;
-  margin: 15px 0px 0px 0px;
-  border-radius: 2px;
-  height: 20vh;
+  justify-content: flex-start;
+  margin: 0px 0px 0px 0px;
+  height: 5vh;
   max-width: calc(60vh - 0px);
-  background-color: #bbdcbe ;
+}
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0px 0px 0px 0px;
+  max-width: calc(60vh - 0px);
+  
 }
 
 
 .postName {
   float: left;
-  margin: 5px 0px 0px 10px;
-  height: 5vh;
+  margin: 0px 0px 0px 10px;
+  height: 3vh;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .postGenre {
   float: left;
-  margin: 5px 0px 5px 10px;
-  height: 5vh;
+  margin: 0px 0px 5px 10px;
+  height: 3vh;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 .postStatus {
-  border: 2px ;
-  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
-  margin: 5px 25px 10px 25px;
-  padding: 0px 0px 0px 10px;
-  height: 45px;
-  width: 50vh;
-  flex-direction: column;
+  margin: 0px 25px 0px 25px;
+  padding: 0px 10px 0px 10px;
+  height: 8vh;
+  width: 52.3vh;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 input {
   border: 2px ;
-  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 0px 1px whitesmoke(0,0,0,0.3);
 }
 
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .shareButton {
-  float: right;
-  margin-right: 5px;
-  background-color: white;
-  border: 2px solid #4CAF50;
+  width: 6vh;
+  height: 3vh;
+  margin: 10px 5px 5px 5px;
+  background-color: whitesmoke;
+  border: none;
   transition-duration: 0.4s;
+  font-family: 'Staatliches', cursive;
+  color: #363636;
 }
 .shareButton:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background-color: #bbdcbe; 
+  color: #363636;
+}
+
+@media (max-width: 600px) {
+  .postComponent {
+    height: 15vh;
+    font-family: 'Staatliches', cursive;
+  }
+  .postForm {
+    height: 15vh;
+    width: 25vh;
+    background-color: #bbdcbe ;
+  }
+  .postContainer {
+    height: 2vh;
+    width: 20vh;
+  }
+  .postName {
+    margin: -10px 0px 0px 5px;
+    height: 2vh;
+    width: 5vh;
+    font-size: 10px;
+  }
+  .postGenre {
+    margin: -10px 0px 0px 5px;
+    height: 2vh;
+    width: 5vh;
+    font-size: 10px;
+  }
+  .postStatus {
+    height: 6vh;
+    width: 16vh;
+  }
+  .shareButton {
+    width: 6vh;
+    height: 2vh;
+    font-size: 10px;
+
+  }
 }
