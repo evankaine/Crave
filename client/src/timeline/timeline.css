@@ -28,14 +28,14 @@
   margin: 0px 5px 0px 5px;
   text-decoration: none;
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 1px;
 }
 
 .timelineGenre {
   text-align: center;
-  margin: 5px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
   padding: 5px 0px 0px 5px;
   font-size: 15px;
   letter-spacing: 1px;
@@ -68,11 +68,6 @@
   font-size: 12px;
   
 }
-
-/* .titleDiv {
-  width: 100px;
-} */
-
 
 
 @media (max-width: 400px) {

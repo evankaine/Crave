@@ -65,7 +65,8 @@ export default function NewPost(props) {
         <input  className="postStatus"
           placeholder="Make A Post..."
           type="text"
-          value={status}
+            value={status}
+            maxLength="32"
           onChange={(e) => setStatus(e.target.value)}
           />
         </div>
