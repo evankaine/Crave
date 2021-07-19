@@ -2,7 +2,7 @@
 .postComponent {
   grid-area: 1 / 2 / 2 / 3;
   margin: 0px 0px 0px 0px;
-  height: calc(20vh - 0px);
+  height: 20vh;
   font-family: 'Staatliches', cursive;
 }
 
@@ -82,14 +82,15 @@ input {
   color: #363636;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 400px) {
   .postComponent {
     height: 15vh;
     font-family: 'Staatliches', cursive;
   }
   .postForm {
+    margin: 15px 5px 0px 0px;
     height: 15vh;
-    width: 30vh;
+    width: 25vh;
     background-color: #bbdcbe ;
   }
   .postContainer {
@@ -102,15 +103,10 @@ input {
     width: 5vh;
     font-size: 10px;
   }
-  .postGenre {
-    margin: -10px 0px 0px 5px;
-    height: 2vh;
-    width: 5vh;
-    font-size: 10px;
-  }
   .postStatus {
+    
     height: 6vh;
-    width: 22vh;
+    width: 15vh;
   }
   .shareButton {
     width: 6vh;

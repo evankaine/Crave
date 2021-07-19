@@ -53,6 +53,7 @@ export default function NewPost(props) {
           placeholder="Name"
           type="text"
           value={name}
+          maxLength="8"
           onChange={(e) => setName(e.target.value)}
         />
         <br />

@@ -9,7 +9,7 @@ export default function Timeline({ post, isNotHome }) {
       {post.map((post) => {
         return (
           <div className="cardContainer" key={post.id}>
-            <div>
+            <div className="titleDiv">
               <h4 className="timelineName">{post.fields.name}</h4>
           
           <Link className="linkGenre" to={`/${post.fields.genre}`}>
@@ -17,7 +17,7 @@ export default function Timeline({ post, isNotHome }) {
           </Link>
             </div>
             <div className="timelineStatus">  
-              <p >{post.fields.status}</p>
+              <p>{post.fields.status}</p>
             </div>
           </div>
         );

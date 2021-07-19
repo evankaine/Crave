@@ -120,6 +120,9 @@
 }
 
 @media (max-width: 600px) {
+  .navbarContainer {
+    width: 20vh;
+  }
   .navbarIconContainer {
     padding: 15px 5px 15px 5px;
     font-family: 'Staatliches', cursive;

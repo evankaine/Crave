@@ -10,11 +10,10 @@ const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/poll`;
 
 function Counter(props) {
-  const [disable, setDisable] = React.useState(false)
+  const [disable, setDisable] = useState(false)
   const [countDubstep, setCountDubstep] = useState(1);
   const [countHouse, setCountHouse] = useState(1);
   
-
   useEffect(() => {
     fetchData();
   }, []);
@@ -57,7 +56,7 @@ function Counter(props) {
     )
     console.log(res)
     fetchData()
-    setDisable()
+    setDisable(true)
 }
 
   return (
@@ -75,7 +74,7 @@ function Counter(props) {
             disabled={disable}
             onClick={(event) =>
             {handleUpdate(event);
-            setDisable(true);}}>
+            }}>
             Dubstep
           </button>
         </div>
@@ -88,8 +87,7 @@ function Counter(props) {
           <button
             disabled={disable}
             onClick={(event) =>
-            {setDisable(true);
-            handleUpdate(event);}}>
+            {handleUpdate(event);}}>
             House
           </button>
         </div>
