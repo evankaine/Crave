@@ -11,9 +11,10 @@
 }
 .concertMessage {
   margin: 200px 0px 0px 0px;
+  
 }
 .soonSpan {
-
+  padding: 5px 5px 5px 5px;
   color: #363636; 
   font-size: 50px;
   text-shadow: -1px 1px #bbdcbe,
@@ -27,6 +28,7 @@
   letter-spacing: 2px;
 }
 .comingSpan {
+  padding: 5px 5px 5px 5px;
   color: #363636; 
   font-size: 50px;
   text-shadow: 1px 1px #bbdcbe,

@@ -9,7 +9,7 @@ const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE;
 
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 
-export default function House() {
+export default function House(isHouse) {
   const [houseData, setHouseData] = useState([]);
   const [toggle, setToggle] = useState(false)
 
@@ -28,7 +28,7 @@ export default function House() {
 
   return (
     <div>
-      <Post setToggle={setToggle} />
+      <Post isHouse setToggle={setToggle} />
       <Timeline isNotHome post={houseData} />
       
     </div>

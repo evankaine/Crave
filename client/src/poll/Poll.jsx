@@ -55,7 +55,7 @@ function Counter(props) {
       {fields: updateVotes},
       { headers: { Authorization: `Bearer ${AIRTABLE_KEY}` } },
     )
-    // console.log(res)
+    console.log(res)
     fetchData()
     setDisable()
 }
@@ -94,6 +94,7 @@ function Counter(props) {
           </button>
         </div>
       </div>
+      <hr className="navbarHr"/>
     </div>
   
   );

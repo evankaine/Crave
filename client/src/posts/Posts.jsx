@@ -10,7 +10,18 @@ const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 export default function NewPost(props) {
   const [name, setName] = useState("");
   const [status, setStatus] = useState("");
-  const [genre, setGenre] = useState("");
+  
+
+  const whichPage = () => {
+    if(props.isHouse) {
+    return 'House'
+    } else if (props.isDubstep) {
+    return 'Dubstep'
+    } else {
+    return ""
+    }
+  }
+  const [genre, setGenre] = useState(whichPage());
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,18 +56,13 @@ export default function NewPost(props) {
           onChange={(e) => setName(e.target.value)}
         />
         <br />
+          
+        <div className="postGenre"/>
         
-        <input className="postGenre"
-          placeholder="Genre"
-          type="text"
-          value={genre}
-          onChange={(e) => setGenre(e.target.value)}
-        />
-          <br />
       </div>
       <div className="statusContainer">
         <input  className="postStatus"
-          placeholder=""
+          placeholder="Make A Post..."
           type="text"
           value={status}
           onChange={(e) => setStatus(e.target.value)}

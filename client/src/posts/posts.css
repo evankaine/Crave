@@ -23,7 +23,6 @@
 .statusContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   margin: 0px 0px 0px 0px;
   max-width: calc(60vh - 0px);
   
@@ -31,6 +30,7 @@
 
 
 .postName {
+  
   float: left;
   margin: 0px 0px 0px 10px;
   height: 3vh;
@@ -39,6 +39,7 @@
 }
 
 .postGenre {
+  
   float: left;
   margin: 0px 0px 5px 10px;
   height: 3vh;
