@@ -22,7 +22,7 @@ export default function Dubstep(isDubstep) {
     const res = await axios.get(URL, {
       headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
     });
-    console.log(res.data.records)
+    // console.log(res.data.records)
     setDubstepData(res.data.records.filter((post) =>
     post.fields.genre === 'Dubstep'));
   };

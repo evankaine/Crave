@@ -12,8 +12,8 @@ const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/table%201`;
 export default function Events() {
   const [eventData, setEventData] = useState([]);
   useEffect(() => {
-    
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const fetchData = async () => {
     const res = await axios.get(URL, {
