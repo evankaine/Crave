@@ -4,7 +4,7 @@
 }
 
 .cSpan {
-  padding: 5px 0px 0px 15px;
+  padding: 5px 0px 0px 35px;
   font-family: 'Staatliches', cursive;
   font-size: 65px;
   color: #bbdcbe;
@@ -15,7 +15,7 @@
   font-family: 'Staatliches', cursive;
   color: #363636;
   font-size: 35px;
-  
+  letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {

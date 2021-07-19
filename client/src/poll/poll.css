@@ -20,20 +20,22 @@
 .dubstepCount {
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
 }
 .dubstepButton {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .houseCount {
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
 }
 .houseButton {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 @media (max-width: 600px) {
   .voteText {

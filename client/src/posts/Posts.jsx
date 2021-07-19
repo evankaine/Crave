@@ -28,6 +28,9 @@ export default function NewPost(props) {
     );
     console.log(res);
     props.setToggle((current) => !current)
+    setName("")
+    setStatus("")
+    setGenre("")
   };
   return (
     <div className="postComponent">
@@ -43,7 +46,7 @@ export default function NewPost(props) {
         />
         <br />
         
-        <input  className="postGenre"
+        <input className="postGenre"
           placeholder="Genre"
           type="text"
           value={genre}
