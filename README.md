@@ -96,24 +96,24 @@ Airtable is returning the data for this base as follows:
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     3hrs    |    ------   |
-| Airtable setup            |    H     |     .5hrs      |     2hr     |    ------   |
-| Clickable icons           |    H     |      1hrs      |     2hr     |    ------   |
-| Data population Home      |    H     |      3hrs      |     2hrs    |    ------   |
-| Data population Genre 1   |    H     |      3hrs      |     3hrs    |    ------   |
-| Data population Genre 2   |    H     |      3hrs      |     3hrs    |    ------   |
-~| Form creation Home       |    H     |      2hrs      |     -----   |~    ------   |
-| Form/post creation        |    H     |      2hrs      |     3hrs    |    ------   |
-| Data creation/update Home |    H     |      3hrs      |     3hrs    |    ------   |
-| Data/update Genre 1       |    H     |      3hrs      |     2hr     |    ------   |
-| Data/update Genre 2       |    H     |      3hrs      |     2hr     |    ------   |
-| Create Voter Component    |    H     |      3hrs      |     3hrs    |    ------   |
-| Component CSS Home        |    H     |      3hrs      |     3hrs    |    ------   |
-| Component CSS Genre 1     |    H     |      3hrs      |     3hrs    |    ------   |
-| Component CSS Genre 2     |    H     |      3hrs      |     3hrs    |    ------   |
-| Event Page                |    H     |      3hrs      |     1hr     |    ------   |
-| Concert Data Component    |    H     |      3hrs      |     1hr     |    ------   |
-| Total                     |    H     |    43.5hrs     |     39hrs   |    ------   |
+| Proposal                  |    H     |      2hrs      |     3hrs      |    3hrs     |
+| Airtable setup            |    H     |     .5hrs      |     2hrs      |    2hrs     |
+| Clickable icons           |    H     |      1hrs      |     2hrs      |    2hrs     |
+| Data population Home      |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Data population Genre 1   |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Data population Genre 2   |    H     |      3hrs      |     3hrs      |    3hrs     | 
+| ~Form creation Home~      |    H     |      2hrs      |     -----     |    ------   |
+| Form/post creation        |    H     |      2hrs      |     3hrs      |    3hrs     |
+| Data creation/update Home |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Data/update Genre 1       |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Data/update Genre 2       |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Create Voter Component    |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Component CSS Home        |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Component CSS Genre 1     |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Component CSS Genre 2     |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Event Page                |    H     |      3hrs      |     1hr       |    1hr      |
+| Concert Data Component    |    H     |      3hrs      |     1hr       |    1hr      |
+| Total                     |    H     |    43.5hrs     |     39hrs     |    39hrs    |
 
 ## SWOT Analysis
 
