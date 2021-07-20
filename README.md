@@ -79,40 +79,41 @@ Airtable is returning the data for this base as follows:
 
 - Delete posts from the feed and airtable.
 - Make accounts to sign in and sign out.
-- Add a search bar to each page to search users .
+- Add second API for event data
 
 ## Project Schedule
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
 | Jul 13   | Proposal Approval / Airtable Setup         | Complete |
-| Jul 14   | Component Creation / Get, Set, Delete Data | Not Complete |
-| Jul 15   | cont'd / CSS Components                    | Not Complete |
-| Jul 16   | CSS Components cont'd / MVP                | Not Complete |
-| Jul 18   | Advanced CSS                               | Not Complete |
-| Jul 20   | Presentations                              | Not Complete |
+| Jul 14   | Component Creation / Get, Set, Delete Data | Complete |
+| Jul 15   | cont'd / CSS Components                    | Complete |
+| Jul 16   | CSS Components cont'd / MVP                | Complete |
+| Jul 18   | Advanced CSS                               | Complete |
+| Jul 20   | Presentations                              | Complete |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     -----     |    ------   |
-| Airtable setup            |    H     |     .5hrs      |     -----     |    ------   |
-| Clickable icons           |    H     |      1hrs      |     -----     |    ------   |
-| Data population Home      |    H     |      3hrs      |     -----     |    ------   |
-| Data population Genre 1   |    H     |      3hrs      |     -----     |    ------   |
-| Data population Genre 2   |    H     |      3hrs      |     -----     |    ------   |
-| Form creation Home        |    H     |      2hrs      |     -----     |    ------   |
-| Form creation Genre 1     |    H     |      2hrs      |     -----     |    ------   |
-| Form creation Genre 2     |    H     |      2hrs      |     -----     |    ------   |
-| Data creation/update Home |    H     |      3hrs      |     -----     |    ------   |
-| Data/update Genre 1       |    H     |      3hrs      |     -----     |    ------   |
-| Data/update Genre 2       |    H     |      3hrs      |     -----     |    ------   |
-| Create Voter Component    |    H     |      3hrs      |     -----     |    ------   |
-| Component CSS Home        |    H     |      3hrs      |     -----     |    ------   |
-| Component CSS Genre 1     |    H     |      3hrs      |     -----     |    ------   |
-| Component CSS Genre 2     |    H     |      3hrs      |     -----     |    ------   |
-| Total                     |    H     |    38.5hrs     |     -----     |    ------   |
+| Proposal                  |    H     |      2hrs      |     3hrs    |    ------   |
+| Airtable setup            |    H     |     .5hrs      |     2hr     |    ------   |
+| Clickable icons           |    H     |      1hrs      |     2hr     |    ------   |
+| Data population Home      |    H     |      3hrs      |     2hrs    |    ------   |
+| Data population Genre 1   |    H     |      3hrs      |     3hrs    |    ------   |
+| Data population Genre 2   |    H     |      3hrs      |     3hrs    |    ------   |
+~| Form creation Home       |    H     |      2hrs      |     -----   |~    ------   |
+| Form/post creation        |    H     |      2hrs      |     3hrs    |    ------   |
+| Data creation/update Home |    H     |      3hrs      |     3hrs    |    ------   |
+| Data/update Genre 1       |    H     |      3hrs      |     2hr     |    ------   |
+| Data/update Genre 2       |    H     |      3hrs      |     2hr     |    ------   |
+| Create Voter Component    |    H     |      3hrs      |     3hrs    |    ------   |
+| Component CSS Home        |    H     |      3hrs      |     3hrs    |    ------   |
+| Component CSS Genre 1     |    H     |      3hrs      |     3hrs    |    ------   |
+| Component CSS Genre 2     |    H     |      3hrs      |     3hrs    |    ------   |
+| Event Page                |    H     |      3hrs      |     1hr     |    ------   |
+| Concert Data Component    |    H     |      3hrs      |     1hr     |    ------   |
+| Total                     |    H     |    43.5hrs     |     39hrs   |    ------   |
 
 ## SWOT Analysis
 
