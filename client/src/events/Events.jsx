@@ -19,7 +19,7 @@ export default function Events() {
     const res = await axios.get(URL, {
       headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
     });
-    // console.log(res.data.records);
+
     setEventData(res.data.records);
     console.log(eventData)
   };

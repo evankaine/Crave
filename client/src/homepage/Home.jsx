@@ -18,7 +18,6 @@ export default function Home() {
     const res = await axios.get(URL, {
       headers: { Authorization: `Bearer ${AIRTABLE_KEY}` },
     });
-    // console.log(res.data.records);
     setHomeData(res.data.records);
   };
   return (
