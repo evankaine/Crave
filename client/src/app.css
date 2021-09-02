@@ -4,7 +4,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background:#363636;
+  background-image: linear-gradient(to bottom right, whitesmoke 10%, #31bcc9);
   width: 100vw;
   
   }

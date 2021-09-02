@@ -8,13 +8,13 @@
 .voteText {
   margin: 20px 0px 0px 0px;
   font-size: 25px;
-  color: whitesmoke;
+  color: #363636;
 } 
 
 .pollCount {
   margin: 20px 0px 0px 0px;
   font-size: 40px;
-  color: whitesmoke;
+  color: #363636;
 } 
 
 .dubstepCount {
@@ -41,17 +41,18 @@
 Button {
   width:8vh;
   height: 3vh;
-  background-color: #bbdcbe;
+  background-color: whitesmoke;
   border: none;
   transition-duration: 0.4s;
   font-family: 'Staatliches', cursive;
   color: #363636;
-  
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
 button:hover {
-  background-color: whitesmoke; 
+  background-color: #31bcc9; 
   color: #363636;
 }
 
