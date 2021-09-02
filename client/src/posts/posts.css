@@ -10,7 +10,9 @@
   margin: 15px 40px 0px 40px;
   height: 20vh;
   width: 60vh;
-  background-color: #bbdcbe ;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3)
 }
 .postContainer {
   display: flex;
@@ -19,6 +21,7 @@
   margin: 0px 0px 0px 0px;
   height: 5vh;
   max-width: calc(60vh - 0px);
+  
 }
 .statusContainer {
   display: flex;
@@ -30,30 +33,30 @@
 
 
 .postName {
-  
+  border-radius: 5px;
   float: left;
   margin: 0px 0px 0px 10px;
-  height: 3vh;
+  height: 2vh;
   background-color: whitesmoke;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+
 }
 
 .postGenre {
-  
+  border-radius: 5px;
   float: left;
   margin: 0px 0px 5px 10px;
   height: 3vh;
   background-color: whitesmoke;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+
 }
 
 .postStatus {
+  border-radius: 5px;
   margin: 0px 25px 0px 25px;
   padding: 0px 10px 0px 10px;
-  height: 8vh;
+  height: 7vh;
   width: 52.3vh;
   background-color: whitesmoke;
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
 input {
@@ -78,7 +81,7 @@ input {
   color: #363636;
 }
 .shareButton:hover {
-  background-color: #bbdcbe; 
+  background-color: #31bcc9; 
   color: #363636;
 }
 

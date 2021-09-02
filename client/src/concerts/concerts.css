@@ -7,7 +7,6 @@
   margin: 0px 0px 0px 0px;
   height: calc(100vh - 0px);
   width: 100%;
-  background: linear-gradient(to right,#363636, #c2c8c5 );
 }
 .concertMessage {
   margin: 200px 0px 0px 0px;
@@ -17,12 +16,12 @@
   padding: 5px 5px 5px 5px;
   color: #363636; 
   font-size: 50px;
-  text-shadow: -1px 1px #bbdcbe,
-  -2px 2px #bbdcbe,
-  -3px 3px #bbdcbe, 
-  -4px 4px #bbdcbe, 
-  -5px 5px #bbdcbe, 
-  -6px 6px #bbdcbe;
+  text-shadow: -1px 1px #31bcc9,
+  -2px 2px #31bcc9,
+  -3px 3px #31bcc9, 
+  -4px 4px #31bcc9, 
+  -5px 5px #31bcc9, 
+  -6px 6px #31bcc9;
   
   font-family: 'Staatliches', cursive;
   letter-spacing: 2px;
@@ -31,12 +30,12 @@
   padding: 5px 5px 5px 5px;
   color: #363636; 
   font-size: 50px;
-  text-shadow: 1px 1px #bbdcbe,
-  2px 2px #bbdcbe,
-  3px 3px #bbdcbe, 
-  4px 4px #bbdcbe, 
-  5px 5px #bbdcbe, 
-  6px 6px #bbdcbe ;
+  text-shadow: 1px 1px #31bcc9,
+  2px 2px #31bcc9,
+  3px 3px #31bcc9, 
+  4px 4px #31bcc9, 
+  5px 5px #31bcc9, 
+  6px 6px #31bcc9;
   
   font-family: 'Staatliches', cursive;
   letter-spacing: 2px;
@@ -52,7 +51,7 @@
   font-family: 'Staatliches', cursive;
   font-size: 20px;
   letter-spacing: 1px;
-  color: #bbdcbe;
+  color: #363636;
 }
 
 @media (max-width: 600px) {

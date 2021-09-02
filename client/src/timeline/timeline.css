@@ -4,7 +4,7 @@
   overflow-y: scroll;
   position: relative;
   height: 99vh;
-  background: #363636;
+  
   scroll-behavior: smooth;
   font-family: "Staatliches", cursive;
 }
@@ -17,10 +17,11 @@
   display: flex;
   flex-direction: row;
   margin: 15px 40px 0px 40px;
-  border-radius: 2px;
+  border-radius: 5px;
   height: 12vh;
   width: 60vh;
-  background-color: #bbdcbe;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+  background-color: whitesmoke;
 }
 .timelineName {
   text-align: left;
@@ -53,18 +54,16 @@
 .linkGenre:active {
   text-decoration: none;
   list-style: none;
-  color: #cff4d2;
+  color: #31bcc9;
 }
 
 .timelineStatus {
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
   margin: 30px 25px 5px 35px;
   padding: 10px 5px 0px 5px;
   height: 50px;
-  width: 38vh;
-  background-color: whitesmoke;
+  width: 70px;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 @media (max-width: 400px) {
@@ -72,7 +71,7 @@
     margin: 15px 5px 0px 0px;
     height: 8vh;
     width: 25vh;
-    background-color: #bbdcbe;
+    background-color: #31bcc9;
   }
   .timelineName {
     font-size: 15px;
